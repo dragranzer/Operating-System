@@ -16,7 +16,7 @@ Output: Anda belum beruntung, coba lagi.
 > Membuat task scheduling menggunakan crontab untuk membuat log yang berisi size dari direktori `/home/<user>/Downloads` dalam human readable format. Task berjalan setiap 15 menit pada pukul 8 sampai 17. File log disimpan pada direktori `/home/<user>/log/` dengan format nama sesuai command `date`.
 
 ### Script crontab
-![image](https://user-images.githubusercontent.com/43901559/111751202-c67e4c00-88c6-11eb-91d2-214d5ee9aee3.png)
+![image](https://user-images.githubusercontent.com/43901559/111753970-0abf1b80-88ca-11eb-814c-2ae46cbb4a79.png)
 
 ### Log
 ![image](https://user-images.githubusercontent.com/43901559/111753769-d3506f00-88c9-11eb-803c-952d113fca61.png)
