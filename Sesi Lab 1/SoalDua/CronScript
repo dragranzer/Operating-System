@@ -1,0 +1,1 @@
+*/15 8-17 * * *  bash ~/Documents/Code/"Seslab 1"/Latihan/SoalDua.sh > ~/log/"$(date).log"
