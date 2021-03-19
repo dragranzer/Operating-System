@@ -18,6 +18,13 @@ Output: Anda belum beruntung, coba lagi.
 ### Script crontab
 ![image](https://user-images.githubusercontent.com/43901559/111751202-c67e4c00-88c6-11eb-91d2-214d5ee9aee3.png)
 
+### Log
+![image](https://user-images.githubusercontent.com/43901559/111753769-d3506f00-88c9-11eb-803c-952d113fca61.png)
+
+### Isi Log
+![image](https://user-images.githubusercontent.com/43901559/111753869-ee22e380-88c9-11eb-9f7e-10052c19c2a3.png)
+
+
 
 ## Soal 3
 > Lakukan download dengan command `wget https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data` untuk mendapatkan dataset. Buatlah sebuah program awk yang dapat menampilkan hasil perkalian dari kolom '**petal length in cm**' dan '**petal width in cm**' dengan format 2 angka di belakang koma hanya untuk record dengan kolom '**class**' yang mengandung string ‘**Iris-setosa**’ dan memiliki nilai ‘**sepal length in cm**’ lebih dari **5.4** berdasarkan dataset tersebut! Tampilkan hasil dengan format “**Luas petal pada baris n adalah y.yy**” dimana “**n**” adalah baris ke berapa record tersebut dan “**y.yy**” adalah hasil perkaliannya. Informasi atribut dapat dilihat di https://archive.ics.uci.edu/ml/datasets/iris/
