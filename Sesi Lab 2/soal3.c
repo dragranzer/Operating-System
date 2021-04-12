@@ -56,7 +56,7 @@ int main() {
         }
 
         char path[1000];
-        sprintf(path, ""LOG_DIR"/error.txt.%d", number++);
+        sprintf(path, ""LOG_DIR"/error.log.%d", number++);
 
         FILE *fptr2 = fopen(path, "w");
 
@@ -70,8 +70,11 @@ int main() {
         while (fscanf(fptr, "%c", &ch) != EOF) {
             fprintf(fptr2, "%c", ch);
         }
-
+        
+        fclose(fptr2);
+        
         fclose(fptr);
+        
 
         // Clear error.txt contents
         fptr = fopen(""LOG_DIR"/error.txt", "w");
