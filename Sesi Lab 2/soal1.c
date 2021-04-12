@@ -2,6 +2,7 @@
 #include <sys/types.h>
 #include <unistd.h>
 #include <stdio.h>
+#include <wait.h>
 
 void func1() {
   int i;
@@ -18,15 +19,20 @@ void func2() {
 }
 
 int main() {
-  pid_t child_id;
-  child_id = fork();
-  if (child_id < 0) {
-    exit(EXIT_FAILURE);
-  }
+    pid_t child_id;
 
-  if (child_id != 0) {
-    func1();
-  } else {
-    func2();
-  }
+    int status;
+
+    child_id = fork();
+    if (child_id < 0) {
+        exit(EXIT_FAILURE);
+    }
+
+    if (child_id == 0) {
+        func1();
+    } 
+    else {
+        while ((wait(&status)) > 0);
+        func2();
+    }
 }
