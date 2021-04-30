@@ -50,7 +50,6 @@ int main() {
   unsigned int index = 1;
   while (!isFinished) {
     read(p[0], buff, FILE_NAME_SIZE);
-    printf("%d. %s\n", index, buff);
     if (index++ == 3) {
       isFinished = true;
     }
